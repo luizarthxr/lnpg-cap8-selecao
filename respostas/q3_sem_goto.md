@@ -119,18 +119,12 @@ while (i < 3 && continuar) {
 
 ## Discussão
 
-A principal mudança feita nessa questão foi substituir o `break` por uma variável de controle chamada `continuar`. Enquanto essa variável for verdadeira e `i` for menor que 3, o laço continua executando. Quando `j > 0`, a variável `continuar` recebe `False` ou `false`, encerrando o laço sem a necessidade de usar `break`.
+O principal desafio que eu vi foi tirar o break sem mudar a lógica do programa. Para resolver isso, usei uma variável de controle chamada continuar, que serve para dizer se o laço deve continuar rodando ou parar.
 
-Em Python, a solução ficou simples e direta, com pouca sintaxe e boa legibilidade. A indentação ajuda a visualizar os blocos de decisão e repetição.
+Achei Python o mais simples de escrever, porque o código fica mais limpo e fácil de acompanhar. A indentação ajuda a enxergar onde começa e termina cada parte.
 
-Em JavaScript, a estrutura ficou parecida com linguagens como C e Java, utilizando chaves e ponto e vírgula. Mesmo sem usar `switch` e `break`, o código continua claro.
+JavaScript ficou parecido com C, então também é fácil de comparar com o código original. Porém, ele tem mais símbolos, como chaves, ponto e vírgula e operadores com três iguais.
 
-Em Kotlin, a estrutura `when` torna a seleção mais elegante e legível, pois permite substituir vários testes condicionais de forma organizada.
+Kotlin foi o que eu achei mais organizado na parte da seleção, porque o when deixa os casos bem separados e fáceis de ler.
 
-Para esse exemplo:
-
-- Python tem a escrita mais simples;
-- JavaScript é mais próximo da estrutura original em C;
-- Kotlin apresenta a seleção mais legível por causa do `when`.
-
-A melhor combinação entre legibilidade e organização, nesse caso, é Kotlin.
+No geral, eu diria que Python foi o mais fácil de escrever, mas Kotlin ficou com a melhor organização visual.
