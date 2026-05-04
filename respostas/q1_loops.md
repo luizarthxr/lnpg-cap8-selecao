@@ -75,14 +75,10 @@ while k <= 10 {
 
 ## Discussão
 
-Para esse código, a linguagem com melhor facilidade de escrita é Python, pois sua sintaxe é mais curta e direta. O uso do `while` deixa a lógica simples de entender, e não há necessidade de declarar tipos ou usar chaves para delimitar blocos.
+Na minha opinião, o Python foi a linguagem mais fácil de escrever nessa questão, porque o código fica menor e mais direto. Não precisa colocar muita coisa, como chaves ou declaração de tipo, então fica mais simples de montar.
 
-Em relação à legibilidade, Java, Python e Swift são bastante claros, porque todos utilizam uma estrutura `while` parecida com o pseudocódigo original. Java e Swift deixam o bloco mais explícito por causa das chaves, enquanto Python usa indentação, o que torna o código mais limpo visualmente.
+Achei Java e Swift também fáceis de entender, porque usam o while de uma forma bem parecida com o pseudocódigo. A diferença é que eles têm uma estrutura mais formal, com chaves, o que deixa o bloco bem separado.
 
-Haskell é a linguagem menos direta para esse exemplo, pois o código original segue um estilo imperativo, com alteração de valores ao longo da execução. Como Haskell trabalha melhor com programação funcional, a solução foi feita usando recursão.
+Já Haskell foi o mais difícil para mim, porque ele não segue tanto essa ideia de ir alterando o valor das variáveis como nas outras linguagens. Precisa usar recursão, então ficou menos intuitivo.
 
-Assim, para esse caso específico:
-
-- melhor facilidade de escrita: Python;
-- melhor legibilidade: Python ou Swift;
-- melhor combinação entre facilidade de escrita e legibilidade: Python.
+Para mim, a melhor combinação entre facilidade de escrita e leitura foi o Python.
