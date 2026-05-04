@@ -27,7 +27,7 @@ As respostas estão organizadas na pasta `respostas`, conforme solicitado na ati
 
 ## Questão 1
 
-Nessa questão, eu achei que a linguagem mais fácil foi Python, porque o código fica menor e mais simples de entender.
+Eu achei que a linguagem mais fácil foi Python, porque o código fica menor e mais simples de entender.
 
 No Java e Swift também ficaram fáceis de ler, porque usam o `while` de uma forma parecida com o pseudocódigo. A diferença é que elas usam chaves e uma estrutura mais organizada.
 
@@ -37,7 +37,7 @@ Na minha opinião, Python foi a melhor opção nessa questão, porque juntou fac
 
 ## Questão 2
 
-Nessa questão, eu achei Ruby mais fácil de entender. O `case when` ficou bem limpo e não precisou usar `break`.
+O Ruby ficou mais fácil de entender. O `case when` ficou bem limpo e não precisou usar `break`.
 
 Em C, o `switch` também ficou fácil de acompanhar, mas achei mais trabalhoso porque precisa colocar `break` nos casos. Se esquecer o `break`, o código pode funcionar errado.
 
@@ -47,7 +47,7 @@ Na minha opinião, Ruby ficou melhor nessa questão, porque o código ficou mais
 
 ## Questão 3
 
-Nessa questão, achei mais complicado tirar o `break` sem mudar o funcionamento do código.
+Achei mais complicado nessa tirar o `break` sem mudar o funcionamento do código.
 
 A solução foi usar uma variável de controle para dizer quando o laço deveria continuar ou parar. Isso deixou o código um pouco maior, mas evitou o uso do `break`.
 
@@ -59,7 +59,7 @@ Na minha opinião, Python foi mais simples, mas Kotlin ficou mais organizado vis
 
 ## Questão 4
 
-Nessa questão, percebi que C e JS são as linguagens mais parecidas com Java, porque permitem colocar a inicialização, a condição e o incremento no próprio `for`.
+Percebi que C e JS são as linguagens mais parecidas com Java, porque permitem colocar a inicialização, a condição e o incremento no próprio `for`.
 
 Python, Ruby e Swift ficaram mais simples visualmente, mas nelas o valor de `j` precisou ser diminuído dentro do laço.
 
