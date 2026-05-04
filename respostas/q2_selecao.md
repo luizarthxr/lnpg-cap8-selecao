@@ -78,16 +78,10 @@ J =
 
 ## Discussão
 
-Em C, o uso de `switch` é bastante tradicional e direto. Ele permite organizar os casos de forma clara, agrupando valores que executam a mesma instrução. Porém, é necessário usar `break` ao final de cada grupo de casos para evitar que a execução continue nos próximos blocos.
+Nessa questão, achei Ruby a linguagem mais simples de entender. O case when ficou bem limpo, principalmente porque dá para colocar vários valores na mesma linha, como when 1, 2, sem precisar usar break.
 
-Em Ruby, a estrutura `case when` fica mais simples e legível. A linguagem permite agrupar vários valores em uma mesma linha, como `when 1, 2`, sem a necessidade de usar `break`. Isso deixa o código mais limpo e fácil de ler.
+Em C, o switch também é fácil de entender, mas achei um pouco mais trabalhoso porque precisa ficar colocando break em cada caso. Se esquecer o break, o código pode dar um resultado errado.
 
-Em Erlang, a estrutura `case` também resolve o problema, mas de uma forma mais funcional. Como as variáveis em Erlang são imutáveis, o valor de `J` é definido a partir do resultado da expressão `case`. Para quem está acostumado com linguagens imperativas, essa forma pode parecer menos direta.
+Já em Erlang, a estrutura funciona, mas achei menos familiar. Como a linguagem trabalha de uma forma mais funcional, em vez de simplesmente mudar o valor de j, ela retorna um valor para J. Para quem está mais acostumado com C, Java ou Python, isso parece um pouco diferente.
 
-Para esse código específico:
-
-- C é direto, mas mais verboso por causa dos `break`;
-- Ruby é mais conciso e legível;
-- Erlang é correto, mas exige adaptação ao estilo funcional.
-
-A linguagem que apresenta a melhor combinação entre clareza e concisão, nesse caso, é Ruby.
+Na minha opinião, Ruby ficou melhor nessa questão, porque foi a linguagem mais clara e menos carregada de símbolos.
