@@ -92,22 +92,14 @@ for i in 0..<n {
 ---
 
 ## Discussão
+C e JS foram as linguagens mais parecidas com Java, porque permitem colocar a inicialização, a condição e o incremento/decremento direto dentro do for. Isso deixou o código bem próximo do exemplo original.
 
-Em C, a construção do `for` é muito parecida com Java. A linguagem permite inicializar `i` e `j`, definir a condição do laço e atualizar as duas variáveis diretamente no cabeçalho do `for`. Por isso, a solução em C fica muito próxima do código original.
+Python ficou mais simples visualmente, mas precisou colocar o j -= 1 dentro do laço, porque o for dele funciona usando range. Mesmo assim, achei bem fácil de entender.
 
-Em JavaScript, a estrutura também é bastante semelhante à de Java. É possível declarar `i` e `j` no próprio cabeçalho do `for`, além de usar `i++` e `j--`. Isso torna JavaScript uma das linguagens mais próximas do exemplo original.
+Ruby também ficou parecido com Python, usando intervalo. O código é curto e legível, mas também precisa diminuir o valor de j dentro do bloco.
 
-Em Python, o laço é baseado em `range(n)`. Por isso, o controle de `i` é feito automaticamente, mas o decremento de `j` precisa ser colocado dentro do corpo do laço. A escrita é simples e legível, embora não seja tão parecida com o `for` de Java.
+Swift usa uma estrutura de intervalo bem clara, com 0..<n. Achei organizado, mas também um pouco diferente do for tradicional de Java.
 
-Em Ruby, a ideia é semelhante à de Python, usando um intervalo de valores. O intervalo `0...n` percorre os valores de 0 até 99, considerando que `n = 100`. Assim como em Python, o decremento de `j` é feito dentro do laço.
-
-Em Swift, o laço também usa intervalo, com a construção `0..<n`. A sintaxe é clara e organizada, mas o decremento de `j` também precisa ficar dentro do corpo do laço.
-
-Para esse código específico:
-
-- C e JavaScript são as linguagens mais parecidas com Java;
-- Python é a mais simples visualmente;
-- Ruby também é concisa e fácil de entender;
-- Swift tem boa legibilidade e uma sintaxe organizada.
+Para mim, JavaScript foi a melhor opção quando penso em proximidade com Java. Mas, olhando só para simplicidade, Python foi o mais fácil de ler.
 
 A melhor combinação entre proximidade com Java e clareza é JavaScript, enquanto a melhor simplicidade visual é Python.
